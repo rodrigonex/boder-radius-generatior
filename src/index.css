@@ -1,0 +1,77 @@
+.cicle{
+    width: 20rem;
+    height: 20rem;
+    margin-left: 2rem;
+}
+
+.flex-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.formFormat{
+    width: 20rem;
+    margin-left: 2rem;
+}
+.container-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.formattitle{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.container-span{
+    width: 21rem;
+    height: 20rem;
+    position: relative;
+    font-weight: bold;
+}
+
+.futuante-right{
+    position: absolute;
+    bottom: 5px;
+    left: -40px;
+}
+
+.futuante-button{
+    position: absolute;
+    bottom: 5px;
+    right: -40px;
+}
+
+.futuante-top{
+    position: absolute; 
+    right: -15px;   
+}
+
+.futuante-left{
+    position: absolute; 
+    left: -30px;   
+}
+
+.rodape{
+    position: absolute;
+    margin-top: 10px;
+    left: -100px;
+    width: 30rem;
+}
+
+@media (max-width: 800px) {
+    .container-form{
+        margin-top: 1rem;
+    } 
+
+    .formattitle{
+        margin: 1rem 0;
+    } 
+    
+    .cicle{
+        margin-left: 6rem;
+    }
+}
